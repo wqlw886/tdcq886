@@ -27,7 +27,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-JavaScript
+    types: sync-JavaScript-tree
 jobs:
   repo-sync:
     env:
