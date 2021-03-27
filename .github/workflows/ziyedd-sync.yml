@@ -43,7 +43,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/JavaScript/tree.git"
+          source_repo: "https://github.com/ziye888/JavaScript/tree.git"
           source_branch: "main"
           destination_branch: "ZIYE"
           github_token: ${{ secrets.PAT }}
